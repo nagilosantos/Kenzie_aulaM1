@@ -1,0 +1,21 @@
+.lista_pai{
+    list-style: none;
+    font-size: 0;
+    padding: 10px;
+    margin: 12px;
+    text-align: center;
+    
+  }
+  li{
+    display: inline-block;
+  
+  }
+  ul li a{
+    color: #000;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 19px;
+    Padding: 5px;
+    background-color: rgb(98, 98, 221);
+  }

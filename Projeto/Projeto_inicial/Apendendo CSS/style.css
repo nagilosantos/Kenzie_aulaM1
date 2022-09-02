@@ -1,0 +1,21 @@
+.titulo-main{
+    font: bold;
+   
+}
+.text-center{
+    text-align: center;
+}
+.backgroud-blue{
+    background-color: blue;
+    color: aliceblue;
+}
+.color-blue{
+    color: blue;
+}
+.background-black{
+    background-color: black;
+    color: aliceblue;
+}
+li{
+    text-decoration: underline;
+}

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade Formulario HTML</title>
+</head>
+<body>
+    <main>
+        <Section>
+            <header>
+                <hr><h1>Cadastro Kenzie Workshop</h1><br><hr>
+                <h3>Preencha os campos abaixo para se inscrever</h3><br>
+            </header>
+            <form action="">
+                <Label for="nome">Nome</Label><br>
+                <input type="text" id="nome" name="nome" placeholder="Digite seu nome" required><br>
+                <Label for="email">Email</Label><br>
+                <input type="email" id="email" name="email" placeholder="exemplo@kenzie.com.br" required><br><br>
+                <Label for="selectModulo">Selecione o Modulo Kenzie:</Label>
+                <Select id="selectModulo" name="selecaoModulo">
+                    <Option value="" selected>Escolha uma opção</Option>
+                    <Option value="Modulo 1">Modulo 1</Option>
+                    <Option value="Modulo 2">Modulo 2</Option>
+                    <Option value="Modulo 3">Modulo 3</Option>
+                    <Option value="Modulo 4">Modulo 4</Option>
+                    <Option value="Modulo 5">Modulo 5</Option>
+                </Select><br><br>
+                <!--<Label for="radiomodulo">Selecione o Modulo Kenzie Atual:</Label><br>
+                <input type="radio" name="radiomodulo" id="radiomodulo" required> M1<br>
+                <input type="radio" name="radiomodulo" id="radiomodulo" required> M2<br>
+                <input type="radio" name="radiomodulo" id="radiomodulo" required> M3<br>
+                <input type="radio" name="radiomodulo" id="radiomodulo" required> M4<br>
+                <input type="radio" name="radiomodulo" id="radiomodulo" required> M5<br><br>-->
+                <label for="text">O que te fez procurar esse Workshop?</label><br>
+                <textarea name="text" id="text" cols="30" rows="10" placeholder="Digite aqui sua resposta">
+                </textarea><br><br>
+                <Label for="senha">Senha</Label><br>
+                <input type="password" id="senha" name="senha" placeholder="Digite uma senha" required><br>
+                <Label for="senha2">Confirme a senha</Label><br>
+                <input type="password" id="senha2" name="senha2" placeholder="Repita a senha" required><br><br>
+                <Label for="notificacao">Deseja receber novidades por E-Mail?</Label><br>
+                <input type="radio" name="notificacao" id="notificacao" required> Sim<br>
+                <input type="radio" name="notificacao" id="notificacao" required> Não<br>
+                <button type="submit">Enviar</button>
+            </form>
+        </Section>
+    </main>
+</body>
+</html>
